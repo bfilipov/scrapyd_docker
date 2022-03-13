@@ -4,6 +4,8 @@ WORKDIR /code
 
 COPY ./requirements.txt /code/requirements.txt
 
+COPY ./scrapyd.conf /etc/scrapyd/scrapyd.conf
+
 RUN apt-get update 
 
 RUN apt-get install build-essential
