@@ -1,0 +1,5 @@
+twistd.pid
+logs/
+eggs/
+dbs/
+data/
